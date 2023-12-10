@@ -23,6 +23,5 @@ npm start
 
 ### Demo
 
-- URL: https://mycostsgb.web.app
 - Login: demo@mail.ru
 - Password: Demo123456
