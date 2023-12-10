@@ -1,0 +1,35 @@
+.App {
+  min-height: 100%;
+
+  &__Header {
+    align-items: center;
+    display: flex;
+
+    @media screen and (max-width: 480px) {
+      padding: 0 20px;
+    }
+  }
+
+  &__Content {
+    padding: 40px 80px;
+
+    @media screen and (max-width: 480px) {
+      padding: 40px 20px;
+    }
+  }
+
+  &__Logout {
+    margin-top: 20px;
+  }
+
+  &__MenuIcon {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+h2.App__SiteName {
+  color: #fff;
+  margin-bottom: 0;
+}
